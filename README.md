@@ -16,7 +16,7 @@ Each folder includes a Markdown (`.md`) file that:
 
 ### ✔️ Completed
 
-- [Problem Set 0](problem-set-0/cyberchase.md)
+- [Problem Set 0](problem-set-0/)
 
 (More coming soon...)
 
