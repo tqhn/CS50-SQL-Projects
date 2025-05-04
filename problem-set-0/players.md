@@ -29,3 +29,8 @@ SELECT team, COUNT(*) AS player_count
 FROM players
 GROUP BY team
 HAVING COUNT(*) > 5;
+
+**## 📝 What I Learned**
+The difference between WHERE (row-level filter) and HAVING (group-level filter)
+How to summarize and compare data across groups
+How SQL handles grouping when some values are NULL
