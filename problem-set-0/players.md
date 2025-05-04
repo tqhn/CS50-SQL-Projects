@@ -19,6 +19,13 @@ This problem involved analyzing a football (soccer) team database to extract sta
 
 ---
 
+## 📝 What I Learned
+The difference between WHERE (row-level filter) and HAVING (group-level filter).
+How to summarize and compare data across groups.
+How SQL handles grouping when some values are NULL.
+
+---
+
 ## 🧵 My Approach
 
 I grouped players by their teams and countries to calculate how many players each team had. Then I filtered for top scorers and explored various statistics like average goals per team.
@@ -30,7 +37,4 @@ FROM players
 GROUP BY team
 HAVING COUNT(*) > 5;
 
-**## 📝 What I Learned**
-The difference between WHERE (row-level filter) and HAVING (group-level filter)
-How to summarize and compare data across groups
-How SQL handles grouping when some values are NULL
+
